@@ -6,7 +6,20 @@ export default class Introduction extends Component {
       <div>
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
-            <ul className="slides">
+            <ul className="slides">              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner js-fullheight">
+                        <div className="desc">
+                          <h1>I'm Raymond Albright <br/> Full Stack Developer</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
               <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
@@ -15,7 +28,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>Hello! <br />I'm Raymond Albright</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/11Gednjt_us2sRekEvO0HGNa5XGI75L4iC8Vzwt92RsY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1-9QFmEEWUJm2rZB_RWHKUOc7W_nvDnlQF3qfOeAwgBo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
