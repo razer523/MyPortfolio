@@ -23,10 +23,10 @@ export default class Timeline extends Component {
                         <h2>Parts Director-Wholesale Parts Lead-Driver<span>2008-2020</span><br/>
                         AutoNation BMW of Roseville-Honda of Roseville	<span>Roseville, CA</span></h2>
                         <li>Continual profit increase monthly of 5% minimum</li>
-                        <li> Monthly financial reconciliation within 1% variance </li>
+                        <li>Monthly financial reconciliation within 1% variance </li>
                         <li>Exceed corporate yearly 10% gross profit increase requirement</li>
-                        <li>Reduce customer vehicle downtime by 50%</li>
-                        <li>Retail growth of over 200%</li>
+                        <li>Reduced customer vehicle downtime by 3 days on average</li>
+                        <li>Retail gross yearly increase of $150k</li>
                       </div>
                     </div>
                   </article>
@@ -38,8 +38,8 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Assistant Manager-Production Specialist<span>2003-2008</span> <br/>
                         Krispy Kreme Doughnuts	<span>Roseville, CA - Citrus Heights, CA</span></h2>
-                        <li>Streamline workflow scheduling achieving 20%-hour reduction</li>
-                        <li> Financial verification of 100% nightly </li>
+                        <li>Streamline workflow scheduling achieving weekly 20-hour reduction</li>
+                        <li>Financial verification of 100% nightly </li>
                         <li>Cross train employees enabling productive work hours</li>
                       </div>
                     </div>
@@ -51,7 +51,7 @@ export default class Timeline extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 className="colorlib-heading animate-box">Volunteer Experience</h2>
+                <h2 className="colorlib-heading animate-box">Non-Profit/Volunteer Experience</h2>
               </div>
             </div>
             <div className="row">
