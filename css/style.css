@@ -284,6 +284,7 @@ figure {
       min-height: 500px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+        text-shadow: 0 0 8px rgb(187, 187, 187), 0 0 8px rgb(187, 187, 187), 0 0 8px rgb(187, 187, 187), 0 0 8px rgb(187, 187, 187);
         display: table-cell;
         vertical-align: middle;
         min-height: 700px;
