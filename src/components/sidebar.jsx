@@ -18,7 +18,8 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline">Experience</a></li>
+                  <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                 </ul>
               </div>
             </nav>
@@ -33,8 +34,7 @@ export default class Sidebar extends Component {
             <br/>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-music2" aria-hidden="true" /> and <i className="icon-coffee" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> and Dhruv Barochiya for inspiration 
+                  Made with <i className="icon-music2" aria-hidden="true" /> and <i className="icon-coffee" aria-hidden="true"></i>
               </small></p>
               <p><small>
               </small></p>
