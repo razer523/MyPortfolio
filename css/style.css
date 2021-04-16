@@ -17,6 +17,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
+
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -84,7 +85,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     #colorlib-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
@@ -130,7 +131,7 @@ figure {
       text-align: center;
       margin: 0;
       padding: 0; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 801px) {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
@@ -195,7 +196,7 @@ figure {
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
     width: 100%; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 801px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
@@ -227,7 +228,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     #colorlib-main {
       width: 100%;
       padding: 0 1em; } }
@@ -1394,10 +1395,20 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 801px) {
     .colorlib-nav-toggle {
       opacity: 1;
-      visibility: visible; } }
+      visibility: visible; } 
+
+      .popup {
+        left: 1%  !important;
+        right: 1%  !important;
+        top: 1%  !important;
+        bottom: 1%  !important;        
+        width: 95vw !important;
+    }    
+}
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
@@ -1406,19 +1417,19 @@ body.offcanvas {
 
 .row-bottom-padded-lg {
   padding-bottom: 7em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     .row-bottom-padded-lg {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-md {
   padding-bottom: 3em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     .row-bottom-padded-md {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-sm {
   padding-bottom: 1em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     .row-bottom-padded-sm {
       padding-bottom: 1em; } }
 
