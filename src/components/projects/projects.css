@@ -1,0 +1,123 @@
+
+  
+  .project-tile {
+    height: fit-content;
+  }
+  
+  #projectDiv {
+    display: inline-flexbox;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #functionContents {
+    text-align: center;
+  }
+
+  .project {
+    position: relative;
+    z-index: 1;
+    opacity: 50;
+  }
+
+  .directWord {
+    border:2px solid rgb(59, 59, 59);
+    width: 95%;
+  }
+  
+  .popup {
+    display: none; 
+    position: fixed; 
+    z-index: 2;
+    background-color: rgba(238, 236, 236, 0.993); 
+    padding-top: 3%;
+    right: 20px;
+    top: 10px;
+    left: 300px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 80vw;
+    height: fit-content; 
+    min-height: 80vh;
+    max-height: 97vh;
+    border: solid;
+    overflow: auto;
+    margin-bottom: 0em;
+}
+  
+  
+  .function {
+    width: 80%;
+    height: fit-content;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color: #020101;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 10%;
+  }
+  
+  #etchContainer {
+    margin: auto;
+    margin-top: 3vh;
+    width: 50vw;
+    height: 50vh;
+  }
+
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  button {
+    width: 25%;
+    border-radius: 10px;
+    appearance: auto;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  }
+
+  .video-responsive {
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: flex;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 30vh;
+    width: 30vw;
+    /* position: absolute; */
+  }

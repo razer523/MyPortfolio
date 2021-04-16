@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
+import './projects.css';
 
-export default class etchaSketch extends React.Component {
+export default class EtchaSketch extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -23,7 +24,7 @@ export default class etchaSketch extends React.Component {
         let primary = "How many squares across?"
         let secondary = "Sorry has to be a number between 4 and 40"
         while(Number.isNaN(parseInt(l))  || parseInt(l) < 4 || parseInt(l) > 40) {
-            if(x == 0) {
+            if(x === 0) {
                 x++;
                 prom(primary, 16)
             }else{prom(secondary, 16)};
@@ -50,17 +51,19 @@ export default class etchaSketch extends React.Component {
                 {display: 'grid',
                 gridTemplateColumns: `repeat(${x}, 1fr)`,
                 gridTemplateRows: `repeat(${x}, 1fr)`,
-                border: '1px solid black',
+                border: '2px solid black',
                 padding: 'auto'}
             )
         }
+        // console.log("Etch was called");
             
         return(
+            <div>
             <body >
                 <div id = "header">
                     <div>
-                        <h3>Click the button to reset the drawing area</h3>
-                        <h3>You can also change the color!</h3>
+                        <h3>React Etch-A-Sketch</h3>
+                        <h4>Use the options below to change the box size or change the color!</h4>
                     </div>
                     <div id="buttonDiv">
                         <button id = "clear" onClick={this.handleClear}>Change Box</button>
@@ -70,6 +73,7 @@ export default class etchaSketch extends React.Component {
                 <div id="etchContainer" style={divGrid(this.state.columns)}>
                     {this.state.array.map(i => <div id={i} onTouchMove={e=> this.handleMouseOver(e)} onTouchStart = {e => this.handleMouseOver(e)} onMouseOver={e => this.handleMouseOver(e)} style={{backgroundColor: "white"}} ></div>)}</div>
             </body>
+            </div>
         )
     }
 }

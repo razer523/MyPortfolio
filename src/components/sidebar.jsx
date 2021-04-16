@@ -20,6 +20,7 @@ export default class Sidebar extends Component {
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Experience</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
+                  {/* <li><a href="#etchaSketch" data-nav-section="etchaSketch">Etch-A-Sketch</a></li> */}
                 </ul>
               </div>
             </nav>
