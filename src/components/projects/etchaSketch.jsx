@@ -41,7 +41,6 @@ export default class EtchaSketch extends Component {
     }
 
     handleMouseOver(evt) {
-        console.log(evt.target.id)
         evt.target.style.backgroundColor = this.state.color
     }
 
@@ -55,11 +54,9 @@ export default class EtchaSketch extends Component {
                 padding: 'auto'}
             )
         }
-        // console.log("Etch was called");
             
         return(
             <div>
-            <body >
                 <div id = "header">
                     <div>
                         <h3>React Etch-A-Sketch</h3>
@@ -71,8 +68,7 @@ export default class EtchaSketch extends Component {
                     </div>
                 </div>
                 <div id="etchContainer" style={divGrid(this.state.columns)}>
-                    {this.state.array.map(i => <div id={i} onTouchMove={e=> this.handleMouseOver(e)} onTouchStart = {e => this.handleMouseOver(e)} onMouseOver={e => this.handleMouseOver(e)} style={{backgroundColor: "white"}} ></div>)}</div>
-            </body>
+                    {this.state.array.map(i => <div key ={i} id={i} onTouchMove={e=> this.handleMouseOver(e)} onTouchStart = {e => this.handleMouseOver(e)} onMouseOver={e => this.handleMouseOver(e)} style={{backgroundColor: "white"}} ></div>)}</div>
             </div>
         )
     }

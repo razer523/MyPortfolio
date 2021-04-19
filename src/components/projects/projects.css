@@ -36,7 +36,8 @@
     left: 300px;
     padding-left: 50px;
     padding-bottom: 50px;
-    width: 80vw;
+    min-width: 20vw;
+    max-width: 80vw;
     height: fit-content; 
     min-height: 80vh;
     max-height: 97vh;

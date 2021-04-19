@@ -4,7 +4,7 @@ export default class PortfolioSite extends Component {
     render() {
         return (
             <div> 
-                <h1>My Portfolio Site???<h5>Or just a direct word to you?</h5></h1>
+                <h1>My Portfolio Site??? <br/>Or just a direct word to you?</h1>
                 <p className="directWord">
                 <br/>As you can imagine, clicking on the link to explore my portfolio, was sort of redundant since in fact, you are exploring it. I was going to use a redirect command and send you back home, however I thought it would be a good opportunity for you to hear a bit from me. So, first off, thank you for making it this far! I am truly honored that you are perusing my portfolio. I hope that you enjoy the different levels in which I have put into it, along with utilizing different techniques. Developing it has been fun and exciting, and as I grow and evolve, so shall it. So hopefully it does not stay the same forever, if so, that means that one fortunate company saw what potential I hold, took a shot, and is reaping the rewards from it. 
 <br/><br/>

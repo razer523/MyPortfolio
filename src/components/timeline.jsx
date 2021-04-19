@@ -22,11 +22,10 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Parts Director-Wholesale Parts Lead-Driver<span>2008-2020</span><br/>
                         AutoNation BMW of Roseville-Honda of Roseville	<span>Roseville, CA</span></h2>
-                        <li>Continual profit increase monthly of 5% minimum</li>
-                        <li>Monthly financial reconciliation within 1% variance </li>
-                        <li>Exceed corporate yearly 10% gross profit increase requirement</li>
-                        <li>Reduced customer vehicle downtime by 3 days on average</li>
-                        <li>Retail gross yearly increase of $150k</li>
+                        <li>Monthly financial reconciliation within 1% variance.</li>
+                        <li>Exceed corporate required 10% gross increase year over year. </li>
+                        <li>Reduce customer vehicle downtime by 3 days on average.</li>
+                        <li>Retail gross increase of $150,000 yearly.</li>
                       </div>
                     </div>
                   </article>
@@ -38,9 +37,9 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Assistant Manager-Production Specialist<span>2003-2008</span> <br/>
                         Krispy Kreme Doughnuts	<span>Roseville, CA - Citrus Heights, CA</span></h2>
-                        <li>Streamline workflow scheduling achieving weekly 20-hour reduction</li>
-                        <li>Financial verification of 100% nightly </li>
-                        <li>Cross train employees enabling productive work hours</li>
+                        <li>Streamline workflow scheduling to achieve weekly 20-hour reduction.</li>
+                        <li>Financial verification nightly with 100% accuracy.</li>
+                        <li>Cross train employees increasing shift production by 30%.</li>
                       </div>
                     </div>
                   </article>
@@ -65,10 +64,9 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Director -2012-2016<br/>
                         The Open Door of Revelation 3:20</h2>
-                        <li>Non-profit organization focused on providing general needs and hygiene products to the less fortunate</li>
-                        <li>Organize community events, fundraisers, and community concerts </li>
-                        <li>Manage audio and lighting equipment- music and sound engineer</li>
-                        <li>Program lighting shows- DMX software</li>
+                        <li>Non-profit organization concentrated on providing general needs and hygiene products to the less fortunate, focusing on providing emotional support 50% of the time and physical support 50% of the time.</li>
+                        <li>Organize community events, fundraisers, and concerts to raise 100% of operational funds.</li>
+                        <li>Manage audio and lighting equipment ensuring full functionality and increasing dependability by 100%.</li>
                       </div>
                     </div>
                   </article>
@@ -78,9 +76,9 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Non-Profit Organizations-2008-Current</h2>
-                        <li>Provide sound and lighting expertise</li>
-                        <li>Manage stage coordination and design</li>
+                        <h2>Provide sound and lighting expertise 4-5 weekends a month.</h2>
+                        <li>Manage stage coordination 50% and design concept 15%.</li>
+                        <li>Troubleshoot and repair issues that occur with equipment decreasing downtime by 60%.</li>
                       </div>
                     </div>
                   </article>

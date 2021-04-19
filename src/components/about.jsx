@@ -11,7 +11,7 @@ export default class About extends Component {
 								<div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 									<div className="col-md-12">
 										<div className="about-desc">
-											<span className="heading-meta">About Me</span>
+											<span className="heading-meta"></span>
 											<h2 className="colorlib-heading">Who Am I?</h2>
 											<p>
 												An influential, creative, engaging, full stack developer with a passion
@@ -35,8 +35,8 @@ export default class About extends Component {
 								className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
 								data-animate-effect="fadeInLeft"
 							>
-								<span className="heading-meta">Skills</span>
-								<h2 className="colorlib-heading">Course Training Skills</h2>
+								<span className="heading-meta"></span>
+								<h2 className="colorlib-heading">Skills</h2>
 							</div>
 						</div>
 						<div className="row row-pt-md">
@@ -46,8 +46,8 @@ export default class About extends Component {
 										<i className="icon-bulb" />
 									</span>
 									<div className="desc">
-										<h3>Front-End Development </h3>
-										<p>JavaScript || ES6 || jQuery || React JS || HTML5 || CSS3 || JAVA</p>
+										<h3>Languages </h3>
+										<p>React || JavaScript || ES6 || jQuery || NoSQL || HTML5 || CSS3 || JAVA</p>
 									</div>
 								</div>
 							</div>
@@ -57,17 +57,29 @@ export default class About extends Component {
 										<i className="icon-phone3" />
 									</span>
 									<div className="desc">
-										<h3>Back-End Development</h3>
+										<h3>Databases</h3>
 										<p>
-											Express || Sequelize || Authentication || NPM || Agile Project Management ||
-											NoSQL || MongoDB || MySQL || GitHub || Web Security || SQL
+											Postman || MySQL || MongooseDB
+										</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 text-center animate-box">
+								<div className="services color-3">
+									<span className="icon">
+										<i className="icon-phone3" />
+									</span>
+									<div className="desc">
+										<h3>Hard Skills</h3>
+										<p>
+										Project Management || Inventory Management || Financial Forecasting || Automotive Collision And Service Parts
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-                    <div className="colorlib-narrow-content">
+                    {/* <div className="colorlib-narrow-content">
 						<div className="row">
 							<div
 								className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
@@ -103,7 +115,7 @@ export default class About extends Component {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</section>
 			</div>
 		);

@@ -25,9 +25,9 @@ export default class AllProjects extends Component {
 			<div id="projects">
 				{this.props.projects.map((item) => (
                     
-					<div className="col-md-4" data-animate-effect="fadeInRight">
-                        <div style={{display: this.state[item.id] === true ? 'block' : 'none'}} class="popup">
-                            <button type="close" class="close" id={item.id} onClick={e => this.toggleShow(e)}>X</button>
+					<div className="col-md-4" data-animate-effect="fadeInRight" key={item.title}>
+                        <div style={{display: this.state[item.id] === true ? 'block' : 'none'}} className="popup">
+                            <button type="close" className="close" id={item.id} onClick={e => this.toggleShow(e)}>X</button>
                             <div id="functionContents">
                                 <item.func class="function" />
                             </div>
@@ -40,9 +40,8 @@ export default class AllProjects extends Component {
 									</h4>
 									<h3><p id={item.id}>{item.description}</p></h3>
                                     <p id={item.id}>Technologies: {item.technologies}</p>
-                                    <a href={item.githubRepo} target='_blank' > <h3>{item.github}</h3></a>
-                                    <a href={item.githubRepo2} target='_blank' > <h3>{item.github2}</h3></a>
-                                    {/* <a href="#etchaSketch" data-nav-section={item.navTo}><h3>{item.title}</h3></a> */}
+                                    <a href={item.githubRepo} target='_blank' rel="noopener noreferrer"> <h3>{item.github}</h3></a>
+                                    <a href={item.githubRepo2} target='_blank' rel="noopener noreferrer"> <h3>{item.github2}</h3></a>
                                     <button onClick={(e) => this.toggleShow(e)} id={item.id}>Explore {item.title}</button> 
 						        </div>
 							</div>

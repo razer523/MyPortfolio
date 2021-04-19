@@ -1,6 +1,7 @@
 import EtchaSketch from "./etchaSketch";
 import PortfolioSite from "./portfolioSite";
 import Yasa from "./yasa";
+import CoffeeCodePrime from "./coffeeCodePrime";
 
 export const projectData = [
     {
@@ -37,6 +38,19 @@ export const projectData = [
         description: "Etch-A-Sketch with your mouse!",
         technologies: 'React',
         navTo: "etchaSketch",
+        github: '',
+        githubRepo: '',
+        github2: '',
+        githubRepo2: '',
+    },
+    {
+        id: 'coffeeCodePrime',
+        imgURL: 'images/primeNumbers.png',
+        title: "Coffee and Codewars",
+        func: CoffeeCodePrime,
+        description: "Check if any given number is a prime number",
+        technologies: 'Javascript, React',
+        navTo: "",
         github: '',
         githubRepo: '',
         github2: '',
