@@ -5,6 +5,7 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Projects from './components/projects'
+import Skills from './components/skills'
 
 class App extends Component {
   render() {
@@ -15,8 +16,9 @@ class App extends Component {
 				<div id="colorlib-main">
 					<Introduction></Introduction>
 					<About></About>
-					<Timeline></Timeline>
+          <Skills></Skills>
           <Projects></Projects>
+					<Timeline></Timeline>
           	</div>
       	</div>
       </div>
