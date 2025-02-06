@@ -44,7 +44,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  {/* <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
                         <i className="icon-pen2" />
@@ -69,7 +69,7 @@ export default class Timeline extends Component {
                         <li>	Administered one or more of the less complex specified functions related to the drug rebate program operation, including program representation to other organizations within and outside of the Department. </li>
                       </div>
                     </div>
-                  </article>
+                  </article> */}
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
